@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 {
     "github.copilot.chat.scopeSelection": true
+=======
+{
+    "github-actions.workflows.pinned.refresh.enabled": true
+>>>>>>> 7a79a97b619d0189704845c507593021c10ffe52
 }
