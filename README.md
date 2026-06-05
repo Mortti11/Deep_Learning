@@ -73,28 +73,3 @@ There is also a `Transformer_Architecture.pdf` included as a reference.
 
 **Notebook:** `transformer.ipynb`
 
----
-
-## Exerrcise_project_X
-
-This notebook is a manual neural network built from scratch with NumPy.
-The goal is to understand the basic parts of training without using Keras
-or PyTorch.
-
-**Data:** Synthetic data with two input features and one target. I tested
-uniform, normal, and wide distributions. The uniform data worked best
-because the values stay between -1 and 1.
-
-**Model:** Small 2-layer neural network with `tanh` in the hidden layer and
-MSE loss. The notebook includes manual forward pass, backpropagation,
-gradient update, and the full training loop.
-
-**Experiments:** I compared learning rates, weight initialization modes,
-and different data distributions. Learning rate `0.05` gave the best result
-in this run. The final uniform-data test loss was about `0.0148`.
-
-**Check:** I also checked one manual gradient against a numerical gradient.
-The values were almost the same, so the backpropagation logic looks correct.
-
-**Notebook:** `Manual_Neural_network.ipynb`
-
