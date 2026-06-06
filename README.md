@@ -73,3 +73,15 @@ There is also a `Transformer_Architecture.pdf` included as a reference.
 
 **Notebook:** `transformer.ipynb`
 
+---
+
+## Exercise_project_X
+
+**Notebook:** `Manual_Neural_network.ipynb`
+
+**What it is:** I built a small neural net from scratch using only NumPy. It has 2 inputs, one `tanh` hidden layer, and MSE loss.
+
+**Data:** I made synthetic data with uniform, normal, and wide ranges. The main run uses uniform data with a linear target and noise. I split it 80/20.
+
+**Training and checks:** I wrote the forward pass, backprop, optimizer, and training loop by hand. The loss ends around `0.014` on train and `0.015` on test, and it stops improving much after about 200 epochs. I also tested learning rates, initialization modes, data distributions, and one numerical gradient check. `0.05` worked best in the learning-rate test.
+
